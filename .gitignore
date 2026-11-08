@@ -1,0 +1,49 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Private datasets and generated outputs
+data/
+outputs/
+logs/
+*.log
+
+# Archives and local files
+*.zip
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Private data and generated outputs
+data/
+outputs/
+logs/
+*.log
+
+# Archives
+*.zip
+.DS_Store
+
+# Local API testing script
+test_groq.py
